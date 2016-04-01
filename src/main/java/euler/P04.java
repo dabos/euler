@@ -27,10 +27,6 @@ public class P04 extends Problem<Integer> {
         result = max;
     }
 
-    public static void main(String[] args) {
-
-    }
-
     public static boolean isPalindrome(String nr) {
         return nr.equals(new StringBuilder(nr).reverse().toString());
     }
